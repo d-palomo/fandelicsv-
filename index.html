@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FANDELIC — Cuadros Premium</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500&family=Bebas+Neue&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════ NAVBAR ═══════════════════════════════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="gallery/logo/fandelic.png" alt="FANDELIC" class="logo-img logo-dark" />
+        <img src="gallery/logo/fandelic.png" alt="FANDELIC" class="logo-img logo-white" />
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#disenos" class="nav-link">Diseños</a>
+        <a href="#precios" class="nav-link">Precios</a>
+        <a href="#resenas" class="nav-link">Reseñas</a>
+        <a href="https://wa.me/50363015523?text=Hola!%20Quiero%20pedir%20un%20cuadro%20FANDELIC%20🎨" target="_blank" class="nav-cta">Pedir ahora</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Menú" touch-action="manipulation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU OVERLAY -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose">✕</button>
+    <nav class="mobile-nav">
+      <a href="#disenos" class="mobile-link" id="m1">Diseños</a>
+      <a href="#precios" class="mobile-link" id="m2">Precios</a>
+      <a href="#resenas" class="mobile-link" id="m3">Reseñas</a>
+      <a href="https://wa.me/50363015523?text=Hola!%20Quiero%20pedir%20un%20cuadro%20FANDELIC%20🎨" target="_blank" class="mobile-cta" id="m4">Pedir por WhatsApp</a>
+    </nav>
+    <div class="mobile-socials">
+      <a href="https://www.instagram.com/fandelic.sv/" target="_blank">Instagram</a>
+      <a href="https://www.tiktok.com/@fandelic.sv/" target="_blank">TikTok</a>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════ HERO ═══════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <span class="hero-eyebrow">Arte para tu espacio</span>
+        <h1 class="hero-title">Tu música.<br />Tu <em>mundo.</em><br />Tu pared.</h1>
+        <p class="hero-sub">Cuadros únicos de tus álbumes, artistas y películas favoritas. Impresos en alta calidad. Entregados en 1–2 días.</p>
+        <div class="hero-actions">
+          <a href="https://wa.me/50363015523?text=Hola!%20Quiero%20pedir%20un%20cuadro%20FANDELIC%20🎨" target="_blank" class="btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Pedir por WhatsApp
+          </a>
+          <a href="#disenos" class="btn-ghost">Ver diseños ↓</a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item">
+            <span class="trust-num">+200</span>
+            <span class="trust-label">Cuadros entregados</span>
+          </div>
+          <div class="trust-divider"></div>
+          <div class="trust-item">
+            <span class="trust-num">5★</span>
+            <span class="trust-label">Calificación promedio</span>
+          </div>
+          <div class="trust-divider"></div>
+          <div class="trust-item">
+            <span class="trust-num">1–2</span>
+            <span class="trust-label">Días de entrega</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-img-wrap">
+          <img src="gallery/hero/hero-img.jpg" alt="Cuadro FANDELIC" class="hero-img" />
+          <div class="hero-badge">
+            <span>Envío</span>
+            <strong>GRATIS</strong>
+          </div>
+        </div>
+        <div class="hero-float-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#1DB954"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+          Compatible con Spotify
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ CATÁLOGO ═══════════════════════════════════════ -->
+  <section class="catalog" id="disenos">
+    <div class="section-header">
+      <span class="section-eyebrow">Catálogo</span>
+      <h2 class="section-title">Elige tu estilo</h2>
+      <p class="section-sub">Cada cuadro es una obra única. Elige una categoría y transforma tu espacio.</p>
+    </div>
+
+    <!-- ÁLBUMES SPOTIFY -->
+    <div class="catalog-category">
+      <div class="category-label">
+        <div class="category-line"></div>
+        <span>Álbumes Spotify</span>
+        <div class="category-line"></div>
+      </div>
+      <div class="catalog-grid">
+        <div class="catalog-card" onclick="waOrder('Álbum 1')">
+          <div class="card-img-wrap">
+            <img src="gallery/tipos-cuadros/albums/ousi.jpg" alt="Álbum 1" />
+            <div class="card-overlay">
+              <span>Pedir este diseño</span>
+            </div>
+          </div>
+        </div>
+        <div class="catalog-card" onclick="waOrder('Álbum 2')">
+          <div class="card-img-wrap">
+            <img src="gallery/tipos-cuadros/albums/dtmf.jpg" alt="Álbum 2" />
+            <div class="card-overlay"><span>Pedir este diseño</span></div>
+          </div>
+        </div>
+        <div class="catalog-card" onclick="waOrder('Álbum 3')">
+          <div class="card-img-wrap">
+            <img src="gallery/tipos-cuadros/albums/travis.jpg" alt="Álbum 3" />
+            <div class="card-overlay"><span>Pedir este diseño</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="category-cta">
+        <a href="https://www.instagram.com/fandelic.sv/" target="_blank" class="btn-outline">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          Ver más en Instagram
+        </a>
+      </div>
+    </div>
+
+    <!-- ARTISTAS -->
+    <div class="catalog-category">
+      <div class="category-label">
+        <div class="category-line"></div>
+        <span>Artistas</span>
+        <div class="category-line"></div>
+      </div>
+      <div class="catalog-grid">
+        <div class="catalog-card" onclick="waOrder('Artista 1')">
+          <div class="card-img-wrap">
+            <img src="gallery/tipos-cuadros/biogra/baboni.jpg" alt="Artista 1" />
+            <div class="card-overlay"><span>Pedir este diseño</span></div>
+          </div>
+        </div>
+        <div class="catalog-card" onclick="waOrder('Artista 2')">
+          <div class="card-img-wrap">
+            <img src="gallery/tipos-cuadros/biogra/mora.jpg" alt="Artista 2" />
+            <div class="card-overlay"><span>Pedir este diseño</span></div>
+          </div>
+        </div>
+        <div class="catalog-card" onclick="waOrder('Artista 3')">
+          <div class="card-img-wrap">
+            <img src="gallery/tipos-cuadros/biogra/jackson.jpg" alt="Artista 3" />
+            <div class="card-overlay"><span>Pedir este diseño</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="category-cta">
+        <a href="https://www.instagram.com/fandelic.sv/" target="_blank" class="btn-outline">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          Ver más en Instagram
+        </a>
+      </div>
+    </div>
+
+    <!-- PELÍCULAS -->
+    <div class="catalog-category">
+      <div class="category-label">
+        <div class="category-line"></div>
+        <span>Películas</span>
+        <div class="category-line"></div>
+      </div>
+      <div class="catalog-grid">
+        <div class="catalog-card" onclick="waOrder('Película 1')">
+          <div class="card-img-wrap">
+            <img src="gallery/tipos-cuadros/movie/inter.jpg" alt="Película 1" />
+            <div class="card-overlay"><span>Pedir este diseño</span></div>
+          </div>
+        </div>
+        <div class="catalog-card" onclick="waOrder('Película 2')">
+          <div class="card-img-wrap">
+            <img src="gallery/tipos-cuadros/movie/st.jpg" alt="Película 2" />
+            <div class="card-overlay"><span>Pedir este diseño</span></div>
+          </div>
+        </div>
+        <div class="catalog-card" onclick="waOrder('Película 3')">
+          <div class="card-img-wrap">
+            <img src="gallery/tipos-cuadros/movie/mandalorian.jpg" alt="Película 3" />
+            <div class="card-overlay"><span>Pedir este diseño</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="category-cta">
+        <a href="https://www.instagram.com/fandelic.sv/" target="_blank" class="btn-outline">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          Ver más en Instagram
+        </a>
+      </div>
+    </div>
+
+    <!-- PERSONALIZADOS -->
+    <div class="catalog-category">
+      <div class="category-label">
+        <div class="category-line"></div>
+        <span>Personalizados</span>
+        <div class="category-line"></div>
+      </div>
+      <div class="catalog-grid">
+        <div class="catalog-card" onclick="waOrder('Diseño personalizado 1')">
+          <div class="card-img-wrap">
+            <img src="gallery/tipos-cuadros/custom/911.jpg" alt="Personalizado 1" />
+            <div class="card-overlay"><span>Pedir este diseño</span></div>
+          </div>
+        </div>
+        <div class="catalog-card" onclick="waOrder('Diseño personalizado 2')">
+          <div class="card-img-wrap">
+            <img src="gallery/tipos-cuadros/custom/spiderman.jpg" alt="Personalizado 2" />
+            <div class="card-overlay"><span>Pedir este diseño</span></div>
+          </div>
+        </div>
+        <div class="catalog-card" onclick="waOrder('Diseño personalizado 3')">
+          <div class="card-img-wrap">
+            <img src="gallery/tipos-cuadros/custom/coco.jpg" alt="Personalizado 3" />
+            <div class="card-overlay"><span>Pedir este diseño</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="category-cta">
+        <a href="https://www.instagram.com/fandelic.sv/" target="_blank" class="btn-outline">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          Ver más en Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ PRECIOS ═══════════════════════════════════════ -->
+  <section class="pricing" id="precios">
+    <div class="section-header">
+      <span class="section-eyebrow">Precios</span>
+      <h2 class="section-title">Simple y transparente</h2>
+      <p class="section-sub">Un solo precio. Dos tamaños. Envío gratis incluido.</p>
+    </div>
+
+    <div class="pricing-cards">
+
+      <!-- Tamaño 1 -->
+      <div class="price-card">
+        <div class="price-card-inner">
+          <div class="frame-visual small-frame">
+            <div class="frame-outer">
+              <div class="frame-inner">
+                <div class="frame-img-placeholder">
+                  <span class="frame-brand">FANDELIC</span>
+                </div>
+              </div>
+            </div>
+            <div class="measure-bar horizontal">
+              <div class="measure-line"></div>
+              <div class="measure-arrow left"></div>
+              <div class="measure-arrow right"></div>
+              <span class="measure-label">20 cm</span>
+            </div>
+            <div class="measure-bar vertical">
+              <div class="measure-line"></div>
+              <div class="measure-arrow top"></div>
+              <div class="measure-arrow bottom"></div>
+              <span class="measure-label">25 cm</span>
+            </div>
+          </div>
+          <div class="price-info">
+            <h3 class="price-size">20 × 25 cm</h3>
+            <p class="price-desc">Ideal para escritorios, repisas y espacios compactos.</p>
+            <div class="price-amount">$16<span>.00</span></div>
+            <a href="https://wa.me/50363015523?text=Hola!%20Quiero%20pedir%20un%20cuadro%2020x25%20cm%20%F0%9F%8E%A8" target="_blank" class="btn-primary full">Pedir este tamaño</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tamaño 2 -->
+      <div class="price-card featured-card">
+        <div class="featured-badge">Más popular</div>
+        <div class="price-card-inner">
+          <div class="frame-visual large-frame">
+            <div class="frame-outer">
+              <div class="frame-inner">
+                <div class="frame-img-placeholder">
+                  <span class="frame-brand">FANDELIC</span>
+                </div>
+              </div>
+            </div>
+            <div class="measure-bar horizontal">
+              <div class="measure-line"></div>
+              <div class="measure-arrow left"></div>
+              <div class="measure-arrow right"></div>
+              <span class="measure-label">30.48 cm</span>
+            </div>
+            <div class="measure-bar vertical">
+              <div class="measure-line"></div>
+              <div class="measure-arrow top"></div>
+              <div class="measure-arrow bottom"></div>
+              <span class="measure-label">45.72 cm</span>
+            </div>
+          </div>
+          <div class="price-info">
+            <h3 class="price-size">30 × 45 cm</h3>
+            <p class="price-desc">Impacto visual total. Perfecto para salas y habitaciones.</p>
+            <div class="price-amount">$17<span>.00</span></div>
+            <a href="https://wa.me/50363015523?text=Hola!%20Quiero%20pedir%20un%20cuadro%2030x45%20cm%20%F0%9F%8E%A8" target="_blank" class="btn-primary full">Pedir este tamaño</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- PROMOS -->
+    <div class="promos-wrap">
+      <div class="promos-header">
+        <span class="section-eyebrow">Promociones</span>
+        <h3 class="promos-title">Combina y ahorra</h3>
+      </div>
+      <div class="promos-grid">
+        <div class="promo-card">
+          <div class="promo-icon">🚗</div>
+          <div class="promo-content">
+            <span class="promo-price">$19</span>
+            <p class="promo-desc">1 cuadro + <strong>1 Hot Wheels / Matchbox</strong> de regalo</p>
+          </div>
+          <a href="https://wa.me/50363015523?text=Hola!%20Quiero%20la%20promo%20de%20%2419%20con%20Hot%20Wheels%20%F0%9F%9A%97" target="_blank" class="btn-promo">Pedir promo</a>
+        </div>
+        <div class="promo-card promo-highlight">
+          <div class="promo-badge-tag">Mejor valor</div>
+          <div class="promo-icon">🏎️</div>
+          <div class="promo-content">
+            <span class="promo-price">$30</span>
+            <p class="promo-desc">1 cuadro + <strong>5 Hot Wheels / Matchbox</strong> de regalo</p>
+          </div>
+          <a href="https://wa.me/50363015523?text=Hola!%20Quiero%20la%20promo%20de%20%2430%20con%205%20Hot%20Wheels%20%F0%9F%8F%8E%EF%B8%8F" target="_blank" class="btn-promo">Pedir promo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ CÓMO PEDIR ═══════════════════════════════════════ -->
+  <section class="how-to">
+    <div class="section-header">
+      <span class="section-eyebrow">Proceso</span>
+      <h2 class="section-title">Así de fácil</h2>
+    </div>
+    <div class="steps-grid">
+      <div class="step">
+        <div class="step-num">01</div>
+        <div class="step-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 6h16M4 10h16M4 14h8"/></svg>
+        </div>
+        <h4>Elige tu diseño</h4>
+        <p>Navega el catálogo y selecciona el que más te guste.</p>
+      </div>
+      <div class="step-connector"></div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <div class="step-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </div>
+        <h4>Contáctanos</h4>
+        <p>Escríbenos por WhatsApp y cuéntanos qué quieres.</p>
+      </div>
+      <div class="step-connector"></div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <div class="step-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>
+        </div>
+        <h4>Paga</h4>
+        <p>Métodos de pago cómodos y seguros.</p>
+      </div>
+      <div class="step-connector"></div>
+      <div class="step">
+        <div class="step-num">04</div>
+        <div class="step-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+        <h4>Recibe en casa</h4>
+        <p>Entrega en 1–2 días. <strong>Envío completamente gratis.</strong></p>
+      </div>
+    </div>
+    <div class="how-cta">
+      <a href="https://wa.me/50363015523?text=Hola!%20Quiero%20pedir%20un%20cuadro%20FANDELIC%20%F0%9F%8E%A8" target="_blank" class="btn-primary large">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Comenzar mi pedido
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ RESEÑAS ═══════════════════════════════════════ -->
+  <section class="reviews" id="resenas">
+    <div class="section-header">
+      <span class="section-eyebrow">Reseñas</span>
+      <h2 class="section-title">Lo que dicen<br />nuestros clientes</h2>
+      <div class="reviews-stars-global">
+        <div class="stars-row">★★★★★</div>
+        <span>4 reseñas verificadas</span>
+      </div>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Excelente servicio y calidad impecable. El cuadro llegó perfectamente empacado y los colores son increíbles. ¡Lo recomiendo al 100%!"</p>
+        <div class="review-author">
+          <div class="review-avatar">ML</div>
+          <span>María López</span>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Profesionales, creativos y muy atentos. Me ayudaron a elegir el diseño perfecto para mi cuarto. Definitivamente volvería a pedir."</p>
+        <div class="review-author">
+          <div class="review-avatar">JR</div>
+          <span>Javier Romero</span>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Me sorprendió la rapidez de la entrega. En menos de 2 días ya tenía mi cuadro en casa. La calidad supera las expectativas."</p>
+        <div class="review-author">
+          <div class="review-avatar">SH</div>
+          <span>Sofía Hernández</span>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Una experiencia totalmente satisfactoria. Desde la atención hasta el producto final, todo fue perfecto. ¡Mi cuarto quedó increíble!"</p>
+        <div class="review-author">
+          <div class="review-avatar">RC</div>
+          <span>Ricardo Castillo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ CTA FINAL ═══════════════════════════════════════ -->
+  <section class="cta-final">
+    <div class="cta-final-inner">
+      <span class="section-eyebrow light">Únete a los fans</span>
+      <h2>¿Listo para transformar<br />tu espacio?</h2>
+      <p>Envío gratis · Entrega en 1–2 días · Calidad premium</p>
+      <a href="https://wa.me/50363015523?text=Hola!%20Quiero%20pedir%20un%20cuadro%20FANDELIC%20%F0%9F%8E%A8" target="_blank" class="btn-white large">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Pedir por WhatsApp ahora
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="gallery/logo/fandelic.png" alt="FANDELIC" class="footer-logo" />
+        <p>Cuadros premium para fans.<br />El Salvador.</p>
+      </div>
+      <div class="footer-links">
+        <h5>Navegar</h5>
+        <a href="#disenos">Diseños</a>
+        <a href="#precios">Precios</a>
+        <a href="#resenas">Reseñas</a>
+      </div>
+      <div class="footer-social">
+        <h5>Síguenos</h5>
+        <a href="https://www.instagram.com/fandelic.sv/" target="_blank">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          @fandelic.sv
+        </a>
+        <a href="https://www.tiktok.com/@fandelic.sv/" target="_blank">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.28 8.28 0 004.84 1.55V6.79a4.85 4.85 0 01-1.07-.1z"/></svg>
+          @fandelic.sv
+        </a>
+        <a href="https://wa.me/50363015523" target="_blank">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          +503 6301 5523
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 FANDELIC. Todos los derechos reservados.</span>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/50363015523?text=Hola!%20Quiero%20pedir%20un%20cuadro%20FANDELIC%20%F0%9F%8E%A8" class="wa-float" target="_blank" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script>
+    // ── PROTECTION ──
+    document.addEventListener('contextmenu', e => e.preventDefault());
+    document.addEventListener('keydown', e => {
+      if (e.key === 'F12' || (e.ctrlKey && (e.key === 'u' || e.key === 'U' || e.key === 's' || e.key === 'S'))) {
+        e.preventDefault();
+      }
+    });
+
+    // ── NAVBAR SCROLL ──
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // ── SMOOTH SCROLL ──
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          closeMobileMenu();
+        }
+      });
+    });
+
+    // ── MOBILE MENU ──
+    const burger = document.getElementById('burger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const mobileClose = document.getElementById('mobileClose');
+
+    function openMobileMenu() {
+      mobileMenu.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeMobileMenu() {
+      mobileMenu.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    burger.addEventListener('click', openMobileMenu);
+    mobileClose.addEventListener('click', closeMobileMenu);
+    mobileMenu.addEventListener('click', e => {
+      if (e.target === mobileMenu) closeMobileMenu();
+    });
+
+    document.querySelectorAll('.mobile-link, .mobile-cta').forEach(link => {
+      link.addEventListener('click', closeMobileMenu);
+    });
+
+    // ── WHATSAPP DYNAMIC ──
+    function waOrder(product) {
+      const msg = encodeURIComponent(`Hola! Me interesa el cuadro: "${product}" 🎨 ¿Pueden darme más información?`);
+      window.open(`https://wa.me/50363015523?text=${msg}`, '_blank');
+    }
+
+    // ── SCROLL REVEAL ──
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.catalog-card, .price-card, .step, .review-card, .promo-card').forEach(el => {
+      el.classList.add('reveal');
+      observer.observe(el);
+    });
+  </script>
+
+</body>
+</html>
